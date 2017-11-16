@@ -34,6 +34,7 @@ public class HelloController {
         return new ModelAndView("helloJsp", map);
     }
 
+
     @RequestMapping("/hello2")
     public ModelAndView helloJsp2(Map<String, Object> map) {
         System.out.println("HelloController.helloJsp().hello=" + hello);
