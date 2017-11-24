@@ -6,7 +6,7 @@ spring:
     password: 123
   mvc:
     view:
-      prefix: /WEB-INF/jsp/
+      prefix: /WEB-INF/community-foreground/
       suffix: .jsp
 server:
   port: 8080
